@@ -1,0 +1,13 @@
+1 - carregar aquivos de imagem de retorno dos correios conforme enviado no whatsapp. 
+Obs: A foto vem num fotmato diferente mas basta mudar a extenção para jpg ela abre. 
+2 - disponibilizar uma tela de consulta por placa, numero do auto, numero AR,( vale ressaltar que um auto possivelmente haverao dois arquivos de imagem nao necessariamente virão juntos mas se trata da notificação de Autuação e posterioumente uma outra notificacao de penalidade para mesma placa e mesmo auto.
+
+3 - verificar o cadastramento automatico tirando a fixação do código fonte o nome das prefeituras.
+obs: ao tratar a carga de acailandia o codigo dentro do arquivo de dados internamente vem errado, possivelmente pelo motivo da string do nome do arquivo ser um pouco maior ou menor.
+
+3 - dividir usuario por orgao/prefeitura fazendo um controle de acesso para manipulaçao nossa disso.
+
+4 - cada prefeitura so pode consulta suas cargas e seus dados apos logar no sistema.
+
+prazo 15 dias :)
+

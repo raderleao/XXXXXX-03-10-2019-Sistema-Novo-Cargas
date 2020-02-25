@@ -1,0 +1,65 @@
+﻿<%@ Control Language="VB" AutoEventWireup="false" CodeFile="ctrTopo.ascx.vb" Inherits="NewExtranet_ctrTopo" %>
+
+            <a href="lnkAcesso.aspx" class="logo">
+                <!-- Add the class icon to your logo image or logo icon to add the margining -->
+                
+                <asp:Label ID="lblSistema" runat="server" Text="Notificações" />
+             <%--  <img ID="imgLogo" src="Imagens/logo.svg" class="" />--%>
+            </a>
+            <!-- Header Navbar: style can be found in header.less -->
+            <nav class="navbar navbar-static-top" role="navigation">
+                <!-- Sidebar toggle button-->
+                <a href="#" class="navbar-btn sidebar-toggle" data-toggle="offcanvas" role="button">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+
+                <div class="navbar-right">
+                    <ul class="nav navbar-nav">
+                        <!-- User Account: style can be found in dropdown.less -->
+                        <li class="dropdown user user-menu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <i class="glyphicon glyphicon-user"></i>
+                                <span><asp:Label ID="lblUsuario" runat="server" /><i class="caret"></i></span>
+                            </a>
+                            <ul class="dropdown-menu" id="divUsuario" runat="server">
+                                <!-- User image -->
+                                <li class="user-header" >
+                                    <img src="Imagens/avatar.png" class="img-circle" alt="User Image" />
+                                   <%-- <asp:Image ID="lblFoto" runat="server" class="img-circle" alt="User Image" />--%>
+                                    <p>
+                                        <asp:Label ID="lblNomeUsuario" runat="server" />
+                                        
+                                    </p>
+                                    <p>
+                                       <%-- <small><b>PERFIL:</b> GESTOR RH</small>--%>
+                                    </p>
+                                </li>
+                                <!-- Menu Body -->
+                                <li class="user-body">
+                                    <div class="col-xs-4 text-center">
+                                        <a href="#"></a>
+                                    </div>
+                                    <div class="col-xs-4 text-center">
+                                        <a href="#"></a>
+                                    </div>
+                                    <div class="col-xs-4 text-center">
+                                        <a href="#"></a>
+                                    </div>
+                                </li>
+                                <!-- Menu Footer-->
+                                <li class="user-footer">
+                                    <div class="pull-left">
+                                        <a href="lnkAlterarSenha.aspx" class="btn btn-default btn-flat">Alterar Senha</a>
+                                    </div>
+                                    <div class="pull-right">
+                                        <a href="lnkAcesso.aspx" class="btn btn-default btn-flat">Sair</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
